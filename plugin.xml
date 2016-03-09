@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.dooble.phonertc"
+    id="com.dooble.phonertc.peloquinfix"
     version="2.0.1">
 
 	<name>PhoneRTC</name>
@@ -111,7 +111,7 @@ In order to install PhoneRTC on iOS, please follow these steps:
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/manifest">
-			
+
 			<uses-feature android:name="android.hardware.camera.autofocus" />
 			<uses-feature android:glEsVersion="0x00020000" android:required="true"></uses-feature>		
 			<uses-permission android:name="android.permission.INTERNET" />
